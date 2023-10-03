@@ -78,7 +78,8 @@ def perimeter(a, b, c):
     - 17.5
 - perimeter(5, 7, 9)
     - 21
-#История проекта
+
+# История проекта
 ```
 * commit 9bba44c7e8f0aaa5cb22be4a0cd07940dd25ad58 (HEAD -> main, Learning_git/new_features_409317)
 | Author: Пашкеев Кирилл <409317@niuitmo.ru>
