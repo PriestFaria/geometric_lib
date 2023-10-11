@@ -30,3 +30,5 @@ Project represents a few python modules for work with some simple geometric figu
     - Fixed perimeter error in rectangle.py **__|__** by **[TimurValeev571](https://github.com/TimurValeev571/geometric_lib/commits?author=TimurValeev571)**
 - *[9f5afa1958615902e90ca00bc473dad6fdb7679e](https://github.com/TimurValeev571/geometric_lib/commit/9f5afa1958615902e90ca00bc473dad6fdb7679e)*:
     - Merge pull request #1 from PriestFaria/main **__|__** by **[TimurValeev571](https://github.com/TimurValeev571/geometric_lib/commits?author=TimurValeev571)**
+
+
