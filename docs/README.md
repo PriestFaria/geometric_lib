@@ -1,85 +1,85 @@
-# Формулы периметра и площади фигур
-## Площадь
-- Круг: S = πR²
-- Прямоугольник: S = ab
-- Квадрат: S = a²
-- Треугольник: S = ah / 2
+# Perimeter and area formulae
+## Area
+- Circle: S = πR²
+- Rectangle: S = ab
+- Square: S = a²
+- Triangle: S = ah / 2
 
-## Периметр
-- Круг: P = 2πR
-- Прямоугольник: P = 2a + 2b
-- Квадрат: P = 4a
-- Треугольник: P = a + b + c
+## Perimeter
+- Circle: P = 2πR
+- Rectangle: P = 2a + 2b
+- Square: P = 4a
+- Triangle: P = a + b + c
 
-# Функции
-## Круг (circle.py)
-### Описание функции
+# Functions
+## Circle (circle.py)
+### Description
 ```
 import math
 
 def area(r):
-    '''Принимает радиус круга r, возвращает его площадь'''
+    '''Gets circle radius r and returns its area'''
     return math.pi * r * r
 
 def perimeter(r):
-    '''Принимает радиус круга r, возвращает длину его окружности'''
+    '''Gets circle radius r and returns its perimeter'''
     return 2 * math.pi * r
 ```
-### Входные и выходные данные
+### Inputs and outputs
 - area(5)
     - 78.53981633974483
 - perimeter(5)
     - 31.41592653589793
-## Прямоугольник (rectangle.py)
-### Описание функции
+## Rectangle (rectangle.py)
+### Description
 ```
 def area(a, b):
-    '''Принимает стороны прямоугольника a и b, возвращает его площадь'''
+    '''Gets rectangle sides a, b and returns its area'''
     return a * b
 
 def perimeter(a, b):
-    '''Принимает стороны прямоугольника a и b, возвращает его периметр'''
+    '''Gets rectangle sides a, b and returns its perimeter'''
     return 2 * (a + b)
 ```
-### Входные и выходные данные
+### Inputs and outputs
 - area(5, 7)
     - 35
 - perimeter(5, 7)
     - 24
-## Квадрат (square.py)
-### Описание функции
+## Square (square.py)
+### Description
 ```
 def area(a):
-    '''Принимает сторону квадрата a, возвращает его площадь'''
+    '''Gets square side a and returns its area'''
     return a * a
 
 def perimeter(a):
-    '''Принимает сторону квадрата a, возвращает его периметр'''
+    '''Gets square side a and returns its perimeter'''
     return 4 * a
 ```
-### Входные и выходные данные
+### Inputs and outputs
 - area(5)
     - 25
 - perimeter(5)
     - 20
-## Треугольник (triangle.py)
-### Описание функции
+## Triangle (triangle.py)
+### Description
 ```
 def area(a, h):
-    '''Принимает сторону треугольника a и его высоту h, возвращает его площадь'''
+    '''Gets triangle side a и его высоту h and returns its area'''
     return a * h / 2
 
 def perimeter(a, b, c):
-    '''Принимает стороны треугольника a, b, c, возвращает его периметр'''
+    '''Gets triangle sides a, b, c and returns its perimeter'''
     return a + b + c
 ```
-### Входные и выходные данные
+### Inputs and outputs
 - area(5, 7)
     - 17.5
 - perimeter(5, 7, 9)
     - 21
 
-# История проекта
+# Project history
 ```
 * commit 9bba44c7e8f0aaa5cb22be4a0cd07940dd25ad58 (HEAD -> main, Learning_git/new_features_409317)
 | Author: Пашкеев Кирилл <409317@niuitmo.ru>
